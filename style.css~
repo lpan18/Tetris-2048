@@ -1,0 +1,19 @@
+/*
+Theme Name: Twentyfourteen Child
+Theme URI: localhost
+Description: This is a child theme of 2014
+Author: test
+Template: twentyfourteen
+*/
+@import url("../twentyfourteen/style.css");
+
+table#Game2048 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#Game2048 tr:nth-child(odd) {
+    background-color: #fff;
+}
+table#Game2048 th {
+    color: white;
+    background-color: black;
+}
